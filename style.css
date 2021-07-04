@@ -14,6 +14,7 @@ h1{
     color: orange;
 }
 .flexible-container{
+    
     display: flex;
     margin-bottom: 50px;
 }
@@ -34,14 +35,41 @@ h1{
     color: white;
     font-weight: 700;
 }
+h2{
+    font-size: 30px;
+}
 
+.motivation{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .experience-div{
+    
     width: 40%;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-right: 5%;
     padding-left: 20px;
     box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    border-radius: 5px;
 }
-h2{
-    font-size: 30px;
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#exp-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
